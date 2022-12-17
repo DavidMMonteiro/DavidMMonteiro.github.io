@@ -180,8 +180,8 @@ h1,h2,h3,h4,h5
 	}
 #home h1
     {
-        border: 2px solid #D43F52;
-        color: #D43F52;
+        border: 2px solid #c9302c;
+        color: #c9302c;
         display: inline-block;
         letter-spacing: 6px;
         padding: 25px 35px;
@@ -206,7 +206,7 @@ h1,h2,h3,h4,h5
     }
 #home .btn:hover
     {
-        background: #D43F52;
+        background: black;
         border-color: transparent;
     }
 /* end home */
@@ -305,7 +305,7 @@ h1,h2,h3,h4,h5
     }
 #portfolio .portfolio-thumb .portfolio-overlay
     {
-        background: #D43F52;
+        background: black;
         top: 0;
         left: 0;
         right: 0;
@@ -331,7 +331,18 @@ h1,h2,h3,h4,h5
     {
       padding-bottom: 18px;
     }
-	
+
+#contact a
+    {
+        text-decoration: none;
+        color: #999;
+    }
+
+#contact a:hover
+{
+    color: darkgray;
+}
+
 #contact .contact-title
     {
 		font-size: 24px;
