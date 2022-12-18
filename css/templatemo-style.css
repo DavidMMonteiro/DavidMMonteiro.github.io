@@ -32,6 +32,10 @@ body
 #contact .fp-slide,
 #contact .fp-tableCell,
 
+#experience,
+#experience .fp-slide,
+#experience .fp-tableCell,
+
 #portfolio,
 #portfolio .fp-slide,
 #portfolio .fp-tableCell,
@@ -54,7 +58,7 @@ h1,h2,h3,h4,h5
 /* end all heading */
 
 /* start all section */
-#work, #about, #portfolio, #contact
+#work, #about, #portfolio, #contact, #experience
     {
         padding-top: 100px;
         padding-bottom: 120px;
@@ -289,10 +293,32 @@ h1,h2,h3,h4,h5
     }
 /* end about */
 
+/* Start Experience */
+
+#experience
+{
+    background: #1a1a1a;
+}
+
+#experience h4, a
+{
+    padding: 15px 0;
+    color: #D43F52;
+}
+
+#experience a{
+    text-decoration: none;
+}
+
+#experience a:hover{
+    color: darkred;
+}
+
+/* End Experience
+
 /* start portfolio */
 #portfolio
     {
-        background: #1a1a1a;
         text-align: center;
     }
 #portfolio h2
@@ -328,6 +354,10 @@ h1,h2,h3,h4,h5
 /* end portfolio */
 
 /* start contact */
+
+#contact{
+    background: #1a1a1a;
+}
 
 #contact address
     {
