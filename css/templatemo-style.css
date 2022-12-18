@@ -171,7 +171,7 @@ h1,h2,h3,h4,h5
 /* start home */       
 #home
 	{
-        background: url('../images/home-bg.jpg');
+        background: url('../images/wallpaper_leiria.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 120px;
@@ -182,6 +182,7 @@ h1,h2,h3,h4,h5
     {
         border: 2px solid #c9302c;
         color: #c9302c;
+        background: rgba(255, 255, 255, 0.5);
         display: inline-block;
         letter-spacing: 6px;
         padding: 25px 35px;
@@ -190,6 +191,7 @@ h1,h2,h3,h4,h5
 #home h2
     {
         padding-bottom: 10px;
+        background: rgba(100, 100, 100, 0.8);;
     }
 #home .btn
     {
@@ -206,7 +208,7 @@ h1,h2,h3,h4,h5
     }
 #home .btn:hover
     {
-        background: black;
+        background: gray;
         border-color: transparent;
     }
 /* end home */
